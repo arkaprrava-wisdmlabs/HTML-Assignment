@@ -96,6 +96,25 @@ nav .links {
 
 }
 
+nav .links a {
+    color: white;
+    text-decoration: none;
+}
+nav .links a:hover {
+    color: rgb(243, 209, 158);
+    text-decoration: none;
+}
+
+header .details button:hover{
+    background-color: #352355;
+}
+
+.signup button:hover {
+    background-color: #5c8bd6;
+    border: 0px;
+    margin: 0px;
+}
+
 header {
 
     border-bottom-style: solid;
@@ -222,7 +241,7 @@ section .heading {
 
     position:relative;
 
-    left:60%;
+    left:70%;
 
     padding: 1.5rem;
 
@@ -262,9 +281,9 @@ section .content figure {
 
     top: 5%;
 
-    left: 32%;
+    left: 30%;
 
-    height: 35%;
+    height:35%;
 
     width:38%;
 
@@ -314,7 +333,7 @@ section .content p {
 
     top:30%;
 
-    left:20%;
+    left:25%;
 
     width:50%;
 
@@ -322,7 +341,7 @@ section .content p {
 
     color: #1f2937;
 
-    font-size: 22px;
+    font-size: 180%;
 
 }
 
@@ -330,7 +349,7 @@ section .content p {
 
     position:relative;
 
-    top:30%;
+    top:35%;
 
     left:60%;
 
@@ -565,8 +584,22 @@ footer p {
         padding-bottom: 3rem;
 
     }
+    .signup {
+        height: 20%;
+        display: block;
+    }
+    .signup .text {
+        top:20%;
+        left:7%;
+        width:85%;
+    }
 
     .signup button {
+        position:relative;
+        top: 4rem;
+        left: 7%;
+        width: 90%;
+        height: 20%;
 
         font-size: 70%;
 
@@ -582,6 +615,9 @@ footer p {
 
         left: 35%;
 
+    }
+    .knowledge .quote {
+        font-size: 140%;
     }
 
 }
