@@ -54,7 +54,7 @@ nav .logo {
 
     top: 30%;
 
-    width: 20%;
+    width: 40%;
 
     display: inline-flex;
 
@@ -134,7 +134,7 @@ header .details {
 
     height: 240px;
 
-    width: 20%;
+    width: 15%;
 
     display: inline-block;
 
@@ -156,9 +156,7 @@ header .details button {
 
     position: relative;
 
-    top: 5%;
-
-    bottom: 0%;
+    top: 0.5rem;
 
     background-color: #008CBA;
 
@@ -170,15 +168,17 @@ header .details button {
 
     width:50%;
 
+    height: 19;
+
 }
 
 header .placeholder {
 
     position: relative;
 
-    top: 30%;
+    top: 10%;
 
-    left: 5%;
+    left: 15%;
 
     height: 240px;
 
@@ -200,7 +200,7 @@ header .placeholder .capture {
 
     height: 240px;
 
-    width: 90%;
+    width: 82%;
 
     background-color: grey;
 
@@ -262,11 +262,11 @@ section .content figure {
 
     top: 5%;
 
-    left: 30%;
+    left: 32%;
 
     height: 35%;
 
-    width:35%;
+    width:38%;
 
     padding: 2rem 2rem;
 
@@ -286,7 +286,7 @@ section .content p {
 
     left: 20%;
 
-    width:80%;
+    width:90%;
 
     padding-top: 10%;
 
@@ -346,7 +346,7 @@ section .content p {
 
     position:relative;
 
-    top: 10%;
+    top: 4.6rem;
 
     bottom: 10%;
 
@@ -410,7 +410,7 @@ section .content p {
 
     width:15%;
 
-    height:fit-content;
+    height:40%;
 
     border-color: aliceblue;
 
@@ -468,9 +468,29 @@ footer p {
 
     header .details {
 
-        height: 50px;
+        height: 30%;
 
         width: 30% !important;
+
+    }
+
+    header .details button{
+
+        position: relative;
+
+        top: 0.5rem;
+
+        background-color: #008CBA;
+
+        border-radius: 8px;
+
+        padding: 10px 24px;
+
+        color:#f9faf8;
+
+        width:50%;
+
+        height: 20%;
 
     }
 
@@ -490,9 +510,9 @@ footer p {
 
         padding-left: 0rem;
 
-        padding-top: 4rem;
+        padding-top: 0.5rem;
 
-        padding-bottom: 4rem;
+        padding-bottom: 8rem;
 
     }
 
@@ -538,7 +558,7 @@ footer p {
 
         position: relative;
 
-        left:25%;
+        left:28%;
 
         padding-top: 5rem;
 
@@ -548,7 +568,7 @@ footer p {
 
     .signup button {
 
-        font-size: 50%;
+        font-size: 70%;
 
         padding: 10px 2%;
 
