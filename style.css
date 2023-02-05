@@ -197,7 +197,7 @@ header .placeholder {
 
     top: 10%;
 
-    left: 15%;
+    left: 16.5%;
 
     height: 240px;
 
@@ -231,7 +231,7 @@ header .placeholder .capture p {
 
     top: 40%;
 
-    left: 28%;
+    left: 31%;
 
     width:50%;
 
@@ -241,7 +241,7 @@ section .heading {
 
     position:relative;
 
-    left:70%;
+    left:66%;
 
     padding: 1.5rem;
 
@@ -451,7 +451,7 @@ footer {
 
     color: antiquewhite;
 
-    height: 7%;
+    height: 5%;
 
 }
 
@@ -543,17 +543,11 @@ footer p {
 
     }
 
-    .start .links {
-
-        justify-content: flex-start;
-
-    }
-
     section .heading {
 
         position: relative;
 
-        left: 40%;
+        left: 35%;
 
         padding: 1.5rem 0rem;
 
@@ -563,7 +557,7 @@ footer p {
 
         position:relative;
 
-        left: 40%;
+        left: 25%;
 
         display: block;
 
@@ -577,14 +571,23 @@ footer p {
 
         position: relative;
 
-        left:28%;
+        left:24%;
+
+        width:50%;
 
         padding-top: 5rem;
 
         padding-bottom: 3rem;
 
     }
+
+    section .content p {
+        left:25%;
+    }
+
     .signup {
+        top:7%;
+        left: 7%;
         height: 20%;
         display: block;
     }
@@ -617,7 +620,7 @@ footer p {
 
     }
     .knowledge .quote {
-        font-size: 140%;
+        font-size: 110%;
     }
 
 }
